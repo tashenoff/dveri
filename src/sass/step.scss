@@ -1,0 +1,83 @@
+.step {
+  background-image: url(/img/step.png);
+
+  &__container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: -webkit-center;
+    width: 100%;
+  }
+  &__item {
+    background-color: #faca5f;
+    max-width: 180px;
+    height: 180px;
+    display: block;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 45%;
+      &:last-child {
+        width: 60%;
+      }
+    }
+
+    //&:before{
+    //  content: '';
+    //  border: 1px solid red;
+    //  display: block;
+    //  top:50%;
+    //  position: absolute;
+    //  z-index: 3;
+    //  width: 100%;
+    //  left: 50%;
+    //}
+
+    &:after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      border-radius: 100%;
+      display: block;
+      //border: 1px solid red;
+      background-color: #faca5f;
+      min-width: 58px;
+      min-height: 58px;
+      z-index: 0;
+    }
+
+    span {
+      display: block;
+      border: 2px solid black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 5px;
+      min-width: 40px;
+      min-height: 40px;
+      border-radius: 100%;
+      left: 9px;
+      top: 9px;
+      z-index: 33332;
+      position: absolute;
+    }
+  }
+
+  &__wrapper {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 490px;
+
+    h1 {
+      color: #fff;
+    }
+  }
+}

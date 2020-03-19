@@ -1,0 +1,34 @@
+.marketing {
+  background-image: url(/img/marketing.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 568px;
+  color: #fff;
+
+  h1,
+  p {
+    max-width: 60%;
+  }
+  p {
+    font-size: 18px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__action {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+}
