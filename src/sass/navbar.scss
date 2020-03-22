@@ -1,8 +1,7 @@
 .navbar {
   &--top {
-
     height: 83px;
-    background-color: #000000 !important;
+    background-color: black;
 
     li {
       a {
@@ -12,7 +11,6 @@
           content: '/';
           display: inline-block;
           margin-left: 1rem;
-
         }
       }
 
@@ -24,8 +22,6 @@
           }
         }
       }
-
     }
-
   }
 }

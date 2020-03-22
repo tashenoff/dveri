@@ -1,6 +1,14 @@
 @import '_mixins';
 @import './node_modules/mq-scss/mq';
+/* import only the necessary Bootstrap files */
+@import './node_modules/bootstrap/scss/functions';
+// @import './node_modules/bootstrap/scss/variables';
+
+// @import './node_modules/bootstrap/scss/variables';
+@import 'marketing';
 @import '_variables';
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
 @import '_animations';
 
 @import '_arrow';
@@ -22,10 +30,11 @@
 @import './node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
 @import './node_modules/owl.carousel/src/scss/owl.carousel.scss';
 @import './node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+
 @import 'owl';
 @import '_responsive';
 @import 'sale';
 @import 'freed';
 @import 'step';
-@import 'marketing';
+
 @import 'buttons';
