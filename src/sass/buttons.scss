@@ -15,6 +15,39 @@
 
   }
 
+
+  &--mob {
+    background-image: url("/img/mob.svg");
+    float: left;
+    margin-right: 10px;
+  }
+
+
+  &--wp {
+    background-image: url("/img/wp.svg");
+    float: left;
+    margin-right: 10px;
+  }
+
+
+  &--email {
+    background-image: url("/img/email.svg");
+    float: left;
+    margin-right: 10px;
+  }
+
+  &--fb {
+    background-image: url("/img/fb.svg");
+    float: left;
+    margin-right: 10px;
+  }
+
+  &--inst {
+    background-image: url("/img/ins.svg");
+    float: left;
+    margin-right: 10px;
+  }
+
   &--phone {
     background-image: url("/img/phone-button.svg");
     float: left;

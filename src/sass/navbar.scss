@@ -1,11 +1,31 @@
 .navbar {
+  &__sec {
+    height: 70px;
+
+    .nav-link {
+
+      color: #777;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+
+      &:hover {
+        color: rgb(73, 73, 73);
+      }
+
+    }
+  }
+
   &--top {
-    height: 83px;
+    height: 70px;
     background-color: black;
 
     li {
       a {
-        font-size: 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
 
         &::after {
           content: '/';
