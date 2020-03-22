@@ -1,0 +1,36 @@
+.sidebar {
+    &__title {
+        background-color: #faca5f;
+        padding: 14px;
+    }
+
+    label {
+        margin-bottom: 0 !important;
+    }
+
+    &__checkbox {
+        width: 17px;
+        height: 17px;
+    }
+
+    &__body {
+        background-color: #fff;
+
+        ul {
+            list-style: none;
+
+            li {
+                border-bottom: 3px solid #C4C4C4;
+                padding: 14px 14px 14px 46px;
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: space-between;
+
+                &:last-child {
+                    border: none;
+                }
+            }
+        }
+    }
+}

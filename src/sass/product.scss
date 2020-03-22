@@ -5,6 +5,8 @@
 
   &__item {
     transition: 0.5s;
+    margin-bottom: 40px;
+
     &:hover {
       box-shadow: 0 16px 24px rgba(8, 35, 48, 0.16);
     }
@@ -26,7 +28,7 @@
 
   &__foto {
     img {
-      width: 100%;
+      width: 80%;
     }
   }
 }
