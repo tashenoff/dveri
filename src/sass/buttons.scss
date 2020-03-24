@@ -1,16 +1,55 @@
+$secondary: #faca5f;
+
+
 .btn-yellow {
   background-color: #faca5f !important;
   border-radius: 50px !important;
+
+
+  &:hover {
+    background-color: darken($secondary, 10%) !important;
+    color: #fff !important;
+
+
+
+    .icon--arrow {
+
+      transform: rotate(360deg);
+
+
+    }
+
+  }
+
+
 
 }
 
 
 .icon {
 
+
+
+  &--buttonarrow {
+    background-image: url("/img/arrow_button.svg");
+    float: right;
+    margin-left: 10px;
+
+
+  }
+
+  &--lg {
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+  }
+
   &--arrow {
     background-image: url("/img/icon-button.svg");
     float: right;
     margin-left: 10px;
+    transition: 0.3s !important;
+
 
 
   }

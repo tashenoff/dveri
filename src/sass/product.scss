@@ -28,7 +28,7 @@
 
   &__foto {
     img {
-      width: 80%;
+      width: 100%;
     }
   }
 }
@@ -75,5 +75,58 @@
       left: 0;
       width: 20px;
     }
+  }
+}
+
+
+.input-group {
+  &--product {
+    // border: 1px solid red;
+    max-width: 110px;
+    font-weight: bold;
+
+  }
+}
+
+.product-block {
+  padding: 20px;
+  // border: 1px solid red;
+  width: 100%;
+
+  span {
+    font-weight: bold;
+  }
+
+
+  &__price {
+    border: 2px solid #faca5f;
+    padding: 6px 16px;
+    border-radius: 20px;
+  }
+
+  &__input {
+    border-radius: 100px;
+    width: 38px;
+    display: inline-block;
+    height: 38px;
+    border: 2px solid #faca5f;
+    text-align: center;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+  }
+
+  &__wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  img {
+    width: 100%;
+    display: block;
   }
 }

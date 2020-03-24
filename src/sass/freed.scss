@@ -1,7 +1,27 @@
 .freed {
   display: flex;
   width: 100%;
-  height: 300px;
+
+
+
+  &__img {
+
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: fit-content;
+
+  }
+
+  &__content {
+    &--white {
+      color: #fff;
+    }
+  }
+
   h1 {
     text-transform: uppercase;
     font-size: 32px;
@@ -11,14 +31,15 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
+    align-items: flex-start;
   }
 
   &__left {
     width: 50%;
     border-right: 1px solid red;
-    background-color: #978858;
     display: flex;
     align-items: center;
+
   }
 
   &__right {
@@ -26,5 +47,13 @@
     border-right: 1px solid red;
     display: flex;
     align-items: center;
+  }
+
+  &__block {
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+
+
   }
 }

@@ -5,10 +5,17 @@
   height: 568px;
   color: #fff;
 
-  h1,
+  h1 {
+    font-size: 50px;
+    max-width: 45%;
+  }
+
   p {
     max-width: 60%;
+    font-size: 20px;
+    display: inline;
   }
+
   p {
     font-size: 18px;
   }
@@ -19,8 +26,9 @@
   }
 
   &__action {
-    display: flex;
-    align-items: flex-end;
+
+    max-width: 54%;
+
   }
 
   &__wrapper {
