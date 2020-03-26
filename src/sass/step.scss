@@ -8,6 +8,10 @@
     text-align: -webkit-center;
     width: 100%;
 
+    p{
+      margin-top: 20px;
+    }
+
   }
 
   .col-lg-3 {
@@ -27,8 +31,8 @@
 
   &__item {
     background-color: #faca5f;
-    max-width: 180px;
-    height: 180px;
+    max-width: 150px;
+    height: 150px;
     display: block;
     border-radius: 100%;
     position: relative;
@@ -66,24 +70,32 @@
       display: block;
       //border: 1px solid red;
       background-color: #faca5f;
-      min-width: 58px;
-      min-height: 58px;
+      min-width: 45px;
+      min-height: 45px;
       z-index: 0;
     }
 
     &:after {
       background: url(/img/dotted.svg);
       content: '';
-      width: 50%;
+      width: 100%;
       display: inline-block;
       position: absolute;
-      left: 180px;
+      left: 170px;
       height: 14px;
       background-repeat: no-repeat;
 
       background-size: 88px;
-      margin-left: 10px;
+      //margin-left: 30px;
       margin-right: 10px;
+
+      @include mq(max $BP-page) {
+        margin-left: 4px;
+        width: 100%;
+        left: 150px;
+        background-size: 80px;
+
+      }
 
 
 
@@ -99,12 +111,12 @@
       text-align: center;
       font-weight: bold;
       font-size: 18px;
-      padding: 5px;
-      min-width: 40px;
-      min-height: 40px;
+      padding: 0;
+      min-width: 35px;
+      min-height: 35px;
       border-radius: 100%;
-      left: 9px;
-      top: 9px;
+      left: 4px;
+      top: 4px;
       z-index: 33332;
       position: absolute;
     }
